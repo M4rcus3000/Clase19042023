@@ -1,8 +1,9 @@
-name: Work 1 Edgar 
+name: Work 1 Edgar
 on: [push]
+
 jobs:
   build:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
-    - name: Print Something
-      run: echo "Hola mundo"
+      - name: Print Something
+        run: echo "Hola Pitaya!"
