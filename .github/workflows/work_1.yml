@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16
     steps:
-      - run: echo "Edgar Guzman C"
+      - run: node server.js
       - run: node --version
       - run: echo "SI727576"
