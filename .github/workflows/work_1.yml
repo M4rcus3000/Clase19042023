@@ -7,4 +7,3 @@ jobs:
     steps:
       - name: Print Something
         run: echo "Edgar Guzmman C"
-        run: echo "SI727576"
