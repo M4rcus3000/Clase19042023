@@ -4,6 +4,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: node:16
     steps:
-      - name: Print Something
-        run: echo "Edgar Guzmman C"
+      - run: echo "Edgar Guzman C"
+      - run: node --version
+      - run: echo "SI727576"
